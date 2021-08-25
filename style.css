@@ -144,3 +144,82 @@ main {
         margin: 15px;
     }
 }
+
+.icon {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-left: 37rem;
+  }
+  
+  footer {
+    display: flex;
+    position: absolute;
+    bottom: 5px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-right: -20rem;
+  }
+  
+  .myinstagram, .mytelegram, .mygithub {
+    background-color: rgb(255, 255, 255);
+    height: 45px;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    font-size: 25px;
+    border-radius: 50%;
+    margin: 0 10px;
+    animation: insanim 1.5s ease-in-out infinite alternate;
+  }
+  @keyframes insanim {
+    from {
+      transform: translateY(0);
+    }
+  
+    to {
+      transform: translateY(-10px);
+    }
+  }
+  
+  .myinstagram a {
+    color: brown;
+  }
+  
+  .mytelegram a {
+    color: rgba(0, 0, 255, 0.767);
+  }
+  
+  .mygithub a {
+    color: black;
+  }
+  
+  .myinstagram:hover {
+    box-shadow: 0 0 15px 8px #fff;
+    background-color: #aaa;
+  }
+  
+  .mytelegram:hover {
+    box-shadow: 0 0 15px 8px #fff;
+    background-color: #aaa;
+    color: brown;
+  }
+  
+  .mygithub:hover {
+    box-shadow: 0 0 15px 8px #fff;
+    background-color: rgba(204, 204, 204, 0.767);
+  }
+  
+  .bobur {  
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    bottom: 2rem;
+    color: #fff;
+    margin: 70px; 
+    justify-content: space-between;
+  }
